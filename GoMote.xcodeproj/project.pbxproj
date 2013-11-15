@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E32064CF1836A3FE00B0D6D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32064CE1836A3FE00B0D6D5 /* Foundation.framework */; };
+		E32064D11836A3FE00B0D6D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32064D01836A3FE00B0D6D5 /* CoreGraphics.framework */; };
+		E32064D31836A3FE00B0D6D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32064D21836A3FE00B0D6D5 /* UIKit.framework */; };
+		E32064D91836A3FE00B0D6D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E32064D71836A3FE00B0D6D5 /* InfoPlist.strings */; };
+		E32064DB1836A3FE00B0D6D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E32064DA1836A3FE00B0D6D5 /* main.m */; };
+		E32064DF1836A3FE00B0D6D5 /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E32064DE1836A3FE00B0D6D5 /* GMAppDelegate.m */; };
+		E32064E21836A3FE00B0D6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32064E01836A3FE00B0D6D5 /* Main.storyboard */; };
+		E32064E51836A3FE00B0D6D5 /* GMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32064E41836A3FE00B0D6D5 /* GMViewController.m */; };
+		E32064E71836A3FE00B0D6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32064E61836A3FE00B0D6D5 /* Images.xcassets */; };
+		E32064EE1836A3FF00B0D6D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32064ED1836A3FF00B0D6D5 /* XCTest.framework */; };
+		E32064EF1836A3FF00B0D6D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32064CE1836A3FE00B0D6D5 /* Foundation.framework */; };
+		E32064F01836A3FF00B0D6D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32064D21836A3FE00B0D6D5 /* UIKit.framework */; };
+		E32064F81836A3FF00B0D6D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E32064F61836A3FF00B0D6D5 /* InfoPlist.strings */; };
+		E32064FA1836A3FF00B0D6D5 /* GoMoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32064F91836A3FF00B0D6D5 /* GoMoteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E32064F11836A3FF00B0D6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32064C31836A3FE00B0D6D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E32064CA1836A3FE00B0D6D5;
+			remoteInfo = GoMote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E32064CB1836A3FE00B0D6D5 /* GoMote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoMote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32064CE1836A3FE00B0D6D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E32064D01836A3FE00B0D6D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E32064D21836A3FE00B0D6D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E32064D61836A3FE00B0D6D5 /* GoMote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoMote-Info.plist"; sourceTree = "<group>"; };
+		E32064D81836A3FE00B0D6D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E32064DA1836A3FE00B0D6D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E32064DC1836A3FE00B0D6D5 /* GoMote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoMote-Prefix.pch"; sourceTree = "<group>"; };
+		E32064DD1836A3FE00B0D6D5 /* GMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
+		E32064DE1836A3FE00B0D6D5 /* GMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
+		E32064E11836A3FE00B0D6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E32064E31836A3FE00B0D6D5 /* GMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMViewController.h; sourceTree = "<group>"; };
+		E32064E41836A3FE00B0D6D5 /* GMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMViewController.m; sourceTree = "<group>"; };
+		E32064E61836A3FE00B0D6D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E32064EC1836A3FF00B0D6D5 /* GoMoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoMoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32064ED1836A3FF00B0D6D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E32064F51836A3FF00B0D6D5 /* GoMoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoMoteTests-Info.plist"; sourceTree = "<group>"; };
+		E32064F71836A3FF00B0D6D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E32064F91836A3FF00B0D6D5 /* GoMoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoMoteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E32064C81836A3FE00B0D6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32064D11836A3FE00B0D6D5 /* CoreGraphics.framework in Frameworks */,
+				E32064D31836A3FE00B0D6D5 /* UIKit.framework in Frameworks */,
+				E32064CF1836A3FE00B0D6D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32064E91836A3FF00B0D6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32064EE1836A3FF00B0D6D5 /* XCTest.framework in Frameworks */,
+				E32064F01836A3FF00B0D6D5 /* UIKit.framework in Frameworks */,
+				E32064EF1836A3FF00B0D6D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E32064C21836A3FE00B0D6D5 = {
+			isa = PBXGroup;
+			children = (
+				E32064D41836A3FE00B0D6D5 /* GoMote */,
+				E32064F31836A3FF00B0D6D5 /* GoMoteTests */,
+				E32064CD1836A3FE00B0D6D5 /* Frameworks */,
+				E32064CC1836A3FE00B0D6D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E32064CC1836A3FE00B0D6D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E32064CB1836A3FE00B0D6D5 /* GoMote.app */,
+				E32064EC1836A3FF00B0D6D5 /* GoMoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E32064CD1836A3FE00B0D6D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E32064CE1836A3FE00B0D6D5 /* Foundation.framework */,
+				E32064D01836A3FE00B0D6D5 /* CoreGraphics.framework */,
+				E32064D21836A3FE00B0D6D5 /* UIKit.framework */,
+				E32064ED1836A3FF00B0D6D5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E32064D41836A3FE00B0D6D5 /* GoMote */ = {
+			isa = PBXGroup;
+			children = (
+				E32064DD1836A3FE00B0D6D5 /* GMAppDelegate.h */,
+				E32064DE1836A3FE00B0D6D5 /* GMAppDelegate.m */,
+				E32064E01836A3FE00B0D6D5 /* Main.storyboard */,
+				E32064E31836A3FE00B0D6D5 /* GMViewController.h */,
+				E32064E41836A3FE00B0D6D5 /* GMViewController.m */,
+				E32064E61836A3FE00B0D6D5 /* Images.xcassets */,
+				E32064D51836A3FE00B0D6D5 /* Supporting Files */,
+			);
+			path = GoMote;
+			sourceTree = "<group>";
+		};
+		E32064D51836A3FE00B0D6D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E32064D61836A3FE00B0D6D5 /* GoMote-Info.plist */,
+				E32064D71836A3FE00B0D6D5 /* InfoPlist.strings */,
+				E32064DA1836A3FE00B0D6D5 /* main.m */,
+				E32064DC1836A3FE00B0D6D5 /* GoMote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E32064F31836A3FF00B0D6D5 /* GoMoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E32064F91836A3FF00B0D6D5 /* GoMoteTests.m */,
+				E32064F41836A3FF00B0D6D5 /* Supporting Files */,
+			);
+			path = GoMoteTests;
+			sourceTree = "<group>";
+		};
+		E32064F41836A3FF00B0D6D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E32064F51836A3FF00B0D6D5 /* GoMoteTests-Info.plist */,
+				E32064F61836A3FF00B0D6D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E32064CA1836A3FE00B0D6D5 /* GoMote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32064FD1836A3FF00B0D6D5 /* Build configuration list for PBXNativeTarget "GoMote" */;
+			buildPhases = (
+				E32064C71836A3FE00B0D6D5 /* Sources */,
+				E32064C81836A3FE00B0D6D5 /* Frameworks */,
+				E32064C91836A3FE00B0D6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoMote;
+			productName = GoMote;
+			productReference = E32064CB1836A3FE00B0D6D5 /* GoMote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E32064EB1836A3FF00B0D6D5 /* GoMoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32065001836A3FF00B0D6D5 /* Build configuration list for PBXNativeTarget "GoMoteTests" */;
+			buildPhases = (
+				E32064E81836A3FF00B0D6D5 /* Sources */,
+				E32064E91836A3FF00B0D6D5 /* Frameworks */,
+				E32064EA1836A3FF00B0D6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32064F21836A3FF00B0D6D5 /* PBXTargetDependency */,
+			);
+			name = GoMoteTests;
+			productName = GoMoteTests;
+			productReference = E32064EC1836A3FF00B0D6D5 /* GoMoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E32064C31836A3FE00B0D6D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MONOWERKS;
+				TargetAttributes = {
+					E32064EB1836A3FF00B0D6D5 = {
+						TestTargetID = E32064CA1836A3FE00B0D6D5;
+					};
+				};
+			};
+			buildConfigurationList = E32064C61836A3FE00B0D6D5 /* Build configuration list for PBXProject "GoMote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E32064C21836A3FE00B0D6D5;
+			productRefGroup = E32064CC1836A3FE00B0D6D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E32064CA1836A3FE00B0D6D5 /* GoMote */,
+				E32064EB1836A3FF00B0D6D5 /* GoMoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E32064C91836A3FE00B0D6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32064E71836A3FE00B0D6D5 /* Images.xcassets in Resources */,
+				E32064D91836A3FE00B0D6D5 /* InfoPlist.strings in Resources */,
+				E32064E21836A3FE00B0D6D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32064EA1836A3FF00B0D6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32064F81836A3FF00B0D6D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E32064C71836A3FE00B0D6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32064DF1836A3FE00B0D6D5 /* GMAppDelegate.m in Sources */,
+				E32064E51836A3FE00B0D6D5 /* GMViewController.m in Sources */,
+				E32064DB1836A3FE00B0D6D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32064E81836A3FF00B0D6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32064FA1836A3FF00B0D6D5 /* GoMoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E32064F21836A3FF00B0D6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E32064CA1836A3FE00B0D6D5 /* GoMote */;
+			targetProxy = E32064F11836A3FF00B0D6D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E32064D71836A3FE00B0D6D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32064D81836A3FE00B0D6D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E32064E01836A3FE00B0D6D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32064E11836A3FE00B0D6D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E32064F61836A3FF00B0D6D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32064F71836A3FF00B0D6D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E32064FB1836A3FF00B0D6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E32064FC1836A3FF00B0D6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E32064FE1836A3FF00B0D6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoMote/GoMote-Prefix.pch";
+				INFOPLIST_FILE = "GoMote/GoMote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E32064FF1836A3FF00B0D6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoMote/GoMote-Prefix.pch";
+				INFOPLIST_FILE = "GoMote/GoMote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E32065011836A3FF00B0D6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoMote.app/GoMote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoMote/GoMote-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoMoteTests/GoMoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E32065021836A3FF00B0D6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoMote.app/GoMote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoMote/GoMote-Prefix.pch";
+				INFOPLIST_FILE = "GoMoteTests/GoMoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E32064C61836A3FE00B0D6D5 /* Build configuration list for PBXProject "GoMote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32064FB1836A3FF00B0D6D5 /* Debug */,
+				E32064FC1836A3FF00B0D6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32064FD1836A3FF00B0D6D5 /* Build configuration list for PBXNativeTarget "GoMote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32064FE1836A3FF00B0D6D5 /* Debug */,
+				E32064FF1836A3FF00B0D6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E32065001836A3FF00B0D6D5 /* Build configuration list for PBXNativeTarget "GoMoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32065011836A3FF00B0D6D5 /* Debug */,
+				E32065021836A3FF00B0D6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E32064C31836A3FE00B0D6D5 /* Project object */;
+}
