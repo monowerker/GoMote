@@ -13,7 +13,6 @@
 		E32064D91836A3FE00B0D6D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E32064D71836A3FE00B0D6D5 /* InfoPlist.strings */; };
 		E32064DB1836A3FE00B0D6D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E32064DA1836A3FE00B0D6D5 /* main.m */; };
 		E32064DF1836A3FE00B0D6D5 /* GMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E32064DE1836A3FE00B0D6D5 /* GMAppDelegate.m */; };
-		E32064E21836A3FE00B0D6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32064E01836A3FE00B0D6D5 /* Main.storyboard */; };
 		E32064E51836A3FE00B0D6D5 /* GMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32064E41836A3FE00B0D6D5 /* GMViewController.m */; };
 		E32064E71836A3FE00B0D6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32064E61836A3FE00B0D6D5 /* Images.xcassets */; };
 		E32064EE1836A3FF00B0D6D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32064ED1836A3FF00B0D6D5 /* XCTest.framework */; };
@@ -21,6 +20,9 @@
 		E32064F01836A3FF00B0D6D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32064D21836A3FE00B0D6D5 /* UIKit.framework */; };
 		E32064F81836A3FF00B0D6D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E32064F61836A3FF00B0D6D5 /* InfoPlist.strings */; };
 		E32064FA1836A3FF00B0D6D5 /* GoMoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32064F91836A3FF00B0D6D5 /* GoMoteTests.m */; };
+		E320650C1836A93D00B0D6D5 /* libEstimoteSDK7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E320650B1836A93D00B0D6D5 /* libEstimoteSDK7.a */; };
+		E32065101836AB2D00B0D6D5 /* MWLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E320650F1836AB2D00B0D6D5 /* MWLog.m */; };
+		E32065161836AFAD00B0D6D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32065151836AFAD00B0D6D5 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +46,6 @@
 		E32064DC1836A3FE00B0D6D5 /* GoMote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoMote-Prefix.pch"; sourceTree = "<group>"; };
 		E32064DD1836A3FE00B0D6D5 /* GMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppDelegate.h; sourceTree = "<group>"; };
 		E32064DE1836A3FE00B0D6D5 /* GMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppDelegate.m; sourceTree = "<group>"; };
-		E32064E11836A3FE00B0D6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E32064E31836A3FE00B0D6D5 /* GMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMViewController.h; sourceTree = "<group>"; };
 		E32064E41836A3FE00B0D6D5 /* GMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMViewController.m; sourceTree = "<group>"; };
 		E32064E61836A3FE00B0D6D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,14 @@
 		E32064F51836A3FF00B0D6D5 /* GoMoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoMoteTests-Info.plist"; sourceTree = "<group>"; };
 		E32064F71836A3FF00B0D6D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E32064F91836A3FF00B0D6D5 /* GoMoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoMoteTests.m; sourceTree = "<group>"; };
+		E32065071836A93D00B0D6D5 /* ESTBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeacon.h; sourceTree = "<group>"; };
+		E32065081836A93D00B0D6D5 /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		E32065091836A93D00B0D6D5 /* ESTBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconManager.h; sourceTree = "<group>"; };
+		E320650A1836A93D00B0D6D5 /* ESTBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconRegion.h; sourceTree = "<group>"; };
+		E320650B1836A93D00B0D6D5 /* libEstimoteSDK7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEstimoteSDK7.a; sourceTree = "<group>"; };
+		E320650E1836AB2D00B0D6D5 /* MWLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLog.h; sourceTree = "<group>"; };
+		E320650F1836AB2D00B0D6D5 /* MWLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLog.m; sourceTree = "<group>"; };
+		E32065151836AFAD00B0D6D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32065161836AFAD00B0D6D5 /* SystemConfiguration.framework in Frameworks */,
 				E32064D11836A3FE00B0D6D5 /* CoreGraphics.framework in Frameworks */,
 				E32064D31836A3FE00B0D6D5 /* UIKit.framework in Frameworks */,
+				E320650C1836A93D00B0D6D5 /* libEstimoteSDK7.a in Frameworks */,
 				E32064CF1836A3FE00B0D6D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				E32064D41836A3FE00B0D6D5 /* GoMote */,
+				E32065041836A92B00B0D6D5 /* External */,
 				E32064F31836A3FF00B0D6D5 /* GoMoteTests */,
 				E32064CD1836A3FE00B0D6D5 /* Frameworks */,
 				E32064CC1836A3FE00B0D6D5 /* Products */,
@@ -101,6 +113,7 @@
 		E32064CD1836A3FE00B0D6D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E32065151836AFAD00B0D6D5 /* SystemConfiguration.framework */,
 				E32064CE1836A3FE00B0D6D5 /* Foundation.framework */,
 				E32064D01836A3FE00B0D6D5 /* CoreGraphics.framework */,
 				E32064D21836A3FE00B0D6D5 /* UIKit.framework */,
@@ -114,11 +127,11 @@
 			children = (
 				E32064DD1836A3FE00B0D6D5 /* GMAppDelegate.h */,
 				E32064DE1836A3FE00B0D6D5 /* GMAppDelegate.m */,
-				E32064E01836A3FE00B0D6D5 /* Main.storyboard */,
 				E32064E31836A3FE00B0D6D5 /* GMViewController.h */,
 				E32064E41836A3FE00B0D6D5 /* GMViewController.m */,
-				E32064E61836A3FE00B0D6D5 /* Images.xcassets */,
+				E320650D1836AB1D00B0D6D5 /* Utils */,
 				E32064D51836A3FE00B0D6D5 /* Supporting Files */,
+				E32064E61836A3FE00B0D6D5 /* Images.xcassets */,
 			);
 			path = GoMote;
 			sourceTree = "<group>";
@@ -150,6 +163,44 @@
 				E32064F61836A3FF00B0D6D5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E32065041836A92B00B0D6D5 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				E32065051836A93D00B0D6D5 /* EstimoteSDK */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		E32065051836A93D00B0D6D5 /* EstimoteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E32065061836A93D00B0D6D5 /* Headers */,
+				E320650B1836A93D00B0D6D5 /* libEstimoteSDK7.a */,
+			);
+			name = EstimoteSDK;
+			path = External/EstimoteSDK/EstimoteSDK;
+			sourceTree = "<group>";
+		};
+		E32065061836A93D00B0D6D5 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E32065071836A93D00B0D6D5 /* ESTBeacon.h */,
+				E32065081836A93D00B0D6D5 /* ESTBeaconDefinitions.h */,
+				E32065091836A93D00B0D6D5 /* ESTBeaconManager.h */,
+				E320650A1836A93D00B0D6D5 /* ESTBeaconRegion.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		E320650D1836AB1D00B0D6D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E320650E1836AB2D00B0D6D5 /* MWLog.h */,
+				E320650F1836AB2D00B0D6D5 /* MWLog.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +282,6 @@
 			files = (
 				E32064E71836A3FE00B0D6D5 /* Images.xcassets in Resources */,
 				E32064D91836A3FE00B0D6D5 /* InfoPlist.strings in Resources */,
-				E32064E21836A3FE00B0D6D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32065101836AB2D00B0D6D5 /* MWLog.m in Sources */,
 				E32064DF1836A3FE00B0D6D5 /* GMAppDelegate.m in Sources */,
 				E32064E51836A3FE00B0D6D5 /* GMViewController.m in Sources */,
 				E32064DB1836A3FE00B0D6D5 /* main.m in Sources */,
@@ -281,14 +332,6 @@
 				E32064D81836A3FE00B0D6D5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E32064E01836A3FE00B0D6D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E32064E11836A3FE00B0D6D5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		E32064F61836A3FF00B0D6D5 /* InfoPlist.strings */ = {
@@ -382,6 +425,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoMote/GoMote-Prefix.pch";
 				INFOPLIST_FILE = "GoMote/GoMote-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/deric/Dropbox/Projects/Monowerks/GoMote/External/EstimoteSDK/EstimoteSDK,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +442,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GoMote/GoMote-Prefix.pch";
 				INFOPLIST_FILE = "GoMote/GoMote-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/deric/Dropbox/Projects/Monowerks/GoMote/External/EstimoteSDK/EstimoteSDK,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +512,7 @@
 				E32064FF1836A3FF00B0D6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E32065001836A3FF00B0D6D5 /* Build configuration list for PBXNativeTarget "GoMoteTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +521,7 @@
 				E32065021836A3FF00B0D6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
